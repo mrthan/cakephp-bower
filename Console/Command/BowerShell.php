@@ -104,7 +104,7 @@ class BowerShell extends AppShell {
 			$path .= '/';
 		}
 
-		$jsonPath = $path . 'component.json';
+		$jsonPath = $path . 'bower.json';
 		$rc = $this->_readRc();
 		if (isset($rc['json'])) {
 			$jsonPath = $path . $rc['json'];

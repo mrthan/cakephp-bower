@@ -1,0 +1,23 @@
+{
+    "name": "mrthan/cakephp-bower",
+    "type": "cakephp-plugin",
+    "description": "CakePHP Plugin for Twitter Bower",
+    "keywords": ["cakephp", "bower", "plugin", "frontend"],
+    "homepage": "http://fahad19.github.io/cakephp-bower/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "fahad ibnay heylaal",
+            "homepage": "http://fahad19.com/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "suggest": {
+        "bower": "Install Twitter Bower via 'npm install -g bower'"
+    },
+    "support": {
+        "source": "https://github.com/fahad19/cakephp-bower"
+    }
+}

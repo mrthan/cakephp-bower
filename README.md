@@ -29,7 +29,7 @@ And of course, load this plugin from your `app/Config/bootstrap.php`:
 
 ## Usage
 
-Given your CakePHP project depends on jQuery v1.9.1, it is expected you will have a file JSON file at `app/component.json` with this info:
+Given your CakePHP project depends on jQuery v1.9.1, it is expected you will have a file JSON file at `app/bower.json` with this info:
 
     {
       "name": "my-cakephp-app",
@@ -43,7 +43,7 @@ Now if we run this command from the `app` directory, Bower will download jQuery 
 
     $ ./Console/cake Bower.bower fetch app
 
-Plugins can have their own `component.json` file too, and they need to be located at `app/Plugin/MyPlugin/component.json`.
+Plugins can have their own `bower.json` file too, and they need to be located at `app/Plugin/MyPlugin/bower.json`.
 
 To download dependencies of a plugin:
 
